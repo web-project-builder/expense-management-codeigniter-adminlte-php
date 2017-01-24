@@ -16,6 +16,8 @@ It can be used as a base platform for any CodeIgniter project
 
 ![Login Screen](http://www.webprojectbuilder.com/assets/home_images/expense-management-screenshots/7-expense-management-expense-category-list.png)
 
+![Login Screen](http://www.webprojectbuilder.com/assets/home_images/expense-management-screenshots/Installation.png)
+
 
 ## [More Screenshots will be found here](http://www.webprojectbuilder.com/item/expense-management)
 
@@ -36,7 +38,7 @@ It can be used as a base platform for any CodeIgniter project
 Installation
 ----
 It have interface of installation panel to quickly install the script on our server.
-Upload the code on your server and hit the url as shown below:
+Upload the code on your server and hit the URL of your main domain like
 
 Eg: yourdomain.com/install
 
