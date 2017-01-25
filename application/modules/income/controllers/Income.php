@@ -181,8 +181,8 @@ array( 'db' => '`income`.`income_id`', 'dt' => 5, 'field' => 'income_id' ));
 			$date = explode(' - ', $this->input->post('dateRange'));
 			$where = " DATE_FORMAT(`income`.`".$this->input->post('colName')."`, '%Y/%m/%d') >= '".date('Y/m/d', strtotime($date[0]))."' AND  DATE_FORMAT(`income`.`".$this->input->post('colName')."`, '%Y/%m/%d') <= '".date('Y/m/d', strtotime($date[1]))."' ";
 		}
-		$data["view_data"]= $this->income_model->get_data($where);
-		echo $this->load->view("tData",$data, true);
+		$data["view_data"]= $this->Income_model->get_data($where);
+		echo $this->load->view("tableData",$data, true);
 		die;
   	}
 }
